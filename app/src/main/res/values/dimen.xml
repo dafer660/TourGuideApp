@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tab_max_width">50dp</dimen>
+
+    <dimen name="txt_title">20sp</dimen>
+    <dimen name="txt_subtitle">14sp</dimen>
+    <dimen name="txt_normal">12sp</dimen>
+
+</resources>
