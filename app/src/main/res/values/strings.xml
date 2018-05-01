@@ -1,7 +1,30 @@
 <resources>
+    <!--Labels for Fragments-->
     <string name="app_name">TourGuideApp</string>
     <string name="restaurant">Restaurants</string>
     <string name="events">Events</string>
     <string name="nightlife">Nightlife</string>
     <string name="historic">Historic Site</string>
+
+    <!--Strings for the ArrayList-->
+    <string name="pateo_do_petisco">Pateo do Petisco</string>
+    <string name="prazeres_da_carne">Os Prazeres da Carne</string>
+    <string name="pateo_address">Tv. Amoreiras 5, 2750–392 Cascais, Portugal</string>
+    <string name="prazeres_da_carne_address">Avenida Nossa Senhora Cabo Quinta 101, 2750–374 Cascais, Portugal</string>
+    <string name="hot_club">Hot Club - Jazz Club</string>
+    <string name="pasteis_belem">Pastéis de Belém</string>
+    <string name="hot_club_address">Praça Alegria 48, 1250–004 Lisboa, Portugal</string>
+    <string name="pasteis_belem_address">R. de Belém 84–92, 1300–085 Lisboa, Portugal</string>
+    <string name="almeida">Almeida</string>
+    <string name="almeida_address">R. do Arco 13, 6350–106 Almeida, Portugal</string>
+    <string name="bairro_alto">Bairro Alto</string>
+    <string name="bairro_alto_address">Bairro Alto de São Roque, Lisboa, Portugal</string>
+    <string name="se_lisboa_address">Largo da Sé, 1100–585 Lisboa, Portugal</string>
+    <string name="se_lisboa">Sé de Lisboa</string>
+    <string name="mercado_ribeira">Mercado da Ribeira</string>
+    <string name="st_antonio">Santo António</string>
+    <string name="address_not_specified">Anywhere in Lisbon!!</string>
+    <string name="mercado_ribeira_address">481, Av. 24 de Julho, Lisboa, Portugal</string>
+
+
 </resources>

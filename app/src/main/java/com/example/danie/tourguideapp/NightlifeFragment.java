@@ -18,8 +18,8 @@ public class NightlifeFragment extends Fragment{
 
         ArrayList<Nightlife> nightlifes = new ArrayList<>();
 
-        nightlifes.add(new Nightlife("Hot Club - Jazz Club", "Praça Alegria 48, 1250-004 Lisboa, Portugal", R.drawable.hot_clube));
-        nightlifes.add(new Nightlife("Pastéis de Belém", "R. de Belém 84-92, 1300-085 Lisboa, Portugal", R.drawable.pastel_de_belem));
+        nightlifes.add(new Nightlife(getString(R.string.hot_club), getString(R.string.hot_club_address), R.drawable.hot_clube));
+        nightlifes.add(new Nightlife(getString(R.string.pasteis_belem), getString(R.string.pasteis_belem_address), R.drawable.pastel_de_belem));
 
         NightlifeArrayAdapter nightlifeArrayAdapter = new NightlifeArrayAdapter(this.getContext(), nightlifes);
         listNightlife.setAdapter(nightlifeArrayAdapter);

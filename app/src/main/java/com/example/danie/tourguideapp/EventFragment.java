@@ -19,8 +19,8 @@ public class EventFragment extends Fragment{
 
         ArrayList<Event> events = new ArrayList<>();
 
-        events.add(new Event("Mercado da Ribeira", "481, Av. 24 de Julho, Lisboa, Portugal", R.drawable.mercado_ribeira));
-        events.add(new Event("Santo António", "Anywhere in Lisbon!!", R.drawable.st_antonio_lisboa));
+        events.add(new Event(getString(R.string.mercado_ribeira), getString(R.string.mercado_ribeira_address), R.drawable.mercado_ribeira));
+        events.add(new Event(getString(R.string.st_antonio), getString(R.string.address_not_specified), R.drawable.st_antonio_lisboa));
 
         EventArrayAdapter eventArrayAdapter = new EventArrayAdapter(this.getContext(), events);
         listEvent.setAdapter(eventArrayAdapter);

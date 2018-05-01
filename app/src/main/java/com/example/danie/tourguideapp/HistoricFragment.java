@@ -18,9 +18,9 @@ public class HistoricFragment extends Fragment{
 
         ArrayList<Historic> historics = new ArrayList<>();
 
-        historics.add(new Historic("Almeida", "R. do Arco 13, 6350-106 Almeida, Portugal", R.drawable.almeida));
-        historics.add(new Historic("Bairro Alto", "Bairro Alto de São Roque, Lisboa, Portugal", R.drawable.bairro_alto));
-        historics.add(new Historic("Sé de Lisboa", "Largo da Sé, 1100-585 Lisboa, Portugal", R.drawable.se_lisboa));
+        historics.add(new Historic(getString(R.string.almeida), getString(R.string.almeida_address), R.drawable.almeida));
+        historics.add(new Historic(getString(R.string.bairro_alto), getString(R.string.bairro_alto_address), R.drawable.bairro_alto));
+        historics.add(new Historic(getString(R.string.se_lisboa), getString(R.string.se_lisboa_address), R.drawable.se_lisboa));
 
         HistoricArrayAdapter historicArrayAdapter = new HistoricArrayAdapter(this.getContext(), historics);
         listHistoric.setAdapter(historicArrayAdapter);
